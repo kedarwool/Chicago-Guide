@@ -1,0 +1,39 @@
+@media print {
+
+    nav,
+    .slicknav_menu,
+    .video-box,
+    .button {
+        display: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+        font-family: Georgia, serif;
+    }
+
+    header,
+    footer {
+        background: white;
+        color: black;
+    }
+
+    .hero {
+        background: none;
+        color: black;
+        min-height: auto;
+        padding: 10px;
+    }
+
+    main {
+        width: 100%;
+        margin: 0;
+    }
+
+    .card,
+    .feature {
+        box-shadow: none;
+        border: 1px solid #999;
+    }
+}
