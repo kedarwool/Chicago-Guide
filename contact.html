@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- @Author Kedar Woolfolk, Contact Page!
+      Southern Illinois University, Developed: 5/4/26, Tested: 5/4/26-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chicago City Guide final project website">
+    <meta name="author" content="Kedar Woolfolk">
+
+    <title>Contact and About</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Chicago City Guide</div>
+
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="attractions.html">Attractions</a></li>
+          <li><a href="food.html">Food & Dining</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="neighborhoods.html">Neighborhoods</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <img src="images/logo1.png" alt="Chicago Logo" class="header-logo">
+    </header>
+
+    <main>
+      <h1 class="page-title">Contact</h1>
+
+      <p>
+        The purpose of this website is to help users discover Chicago attractions, food, events, 
+        and neighborhoods in a clear and organized way.
+      </p>
+
+      <form action="thanks.html" method="get">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="6"></textarea>
+
+        <div class="form-buttons">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+
+    </main>
+
+    <footer>
+      <p> 2026 Chicago City Guide | Created by Kedar Woolfolk | ITEC 236</p>
+    </footer>
+  </body>
+</html>
